@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">کپی نگهدار</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">ذخیره</string>
+    <string name="cancel">لغو</string>
+     <string name="search">جست و جو کن ...</string>
+	<string-array name="menu">
+		<item>ویرایش</item>
+		<item>پاک</item>
+		<item>کپی</item>
+		<item>اشتراک گذاری</item>
+	</string-array>
+</resources>
