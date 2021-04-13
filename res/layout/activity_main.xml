@@ -15,7 +15,9 @@
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="40dp" >
+        android:layout_marginTop="43dp"
+        android:divider="#000000"
+    	android:dividerHeight="2dp" >
 
     </ListView>
 
@@ -23,10 +25,24 @@
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="@string/search"
+        android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/listView1"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="@string/search"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:onClick="serciveHandle"
+        android:textOff="@string/deactive"
+        android:textOn="@string/active"
+        android:textSize="12sp" />
 
 </RelativeLayout>

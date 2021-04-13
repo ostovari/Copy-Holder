@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.vahid.copyholder3"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="3"
+    android:versionName="1.2" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -28,6 +28,13 @@
             android:name="com.vahid.copyholder3.Edit"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize"></activity>
+        
+        <activity 
+            android:name="com.vahid.copyholder3.Holdservice"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize"></activity>
+        
+        <service android:name=".Holdservice" />
        
     </application>
 
